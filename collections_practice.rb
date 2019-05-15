@@ -29,6 +29,8 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.find_all
+  arr.find_all {
+    
+  }
   
   
