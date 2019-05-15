@@ -34,5 +34,19 @@ def find_a(arr)
     elem[0] == 'a'
   }
 end
+
+def sum_array(arr)
+  sum = 0
+  arr.each do |elem|
+    sum += elem
+  end
+end
+
+def add_s(arr)
+  arr.each do |elem|
+    elem += "s"
+  end
+  return arr
+end
   
   
