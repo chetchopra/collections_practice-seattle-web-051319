@@ -30,7 +30,7 @@ end
 
 def find_a(arr)
   arr.find_all {
-    
+    |elem|
   }
   
   
