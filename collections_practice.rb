@@ -44,8 +44,12 @@ def sum_array(arr)
 end
 
 def add_s(arr)
+  count = 0
   arr.each do |elem|
-    elem << 's'
+    if count != 1
+      elem << 's'
+    end
+    count += 1
   end
   return arr
 end
