@@ -45,7 +45,7 @@ end
 
 def add_s(arr)
   arr.each do |elem|
-    elem += "s"
+    elem += 's'
   end
   return arr
 end
